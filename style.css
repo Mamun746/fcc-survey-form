@@ -1,0 +1,79 @@
+body {
+  background: #e1e6e9;
+}
+.main {
+  background-color: #cccccc;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+h1 {
+  color: green;
+  text-align: center;
+  font-weight: bold;
+  margin: 30px;
+}
+span {
+  color: red;
+}
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+#description {
+  text-align: center;
+}
+.input-filed {
+  width: 280px;
+  height: 30px;
+  margin: 10px;
+  padding: 5px;
+}
+
+#dropdown {
+  width: 100px;
+  height: 35px;
+  padding: 5px;
+  margin: 10px;
+}
+.radio {
+  padding: 5px;
+  margin: 10px;
+}
+.checkbox {
+  padding: 5px;
+}
+#submit {
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  border: 0px solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .input-filed {
+    width: 200px;
+  }
+}
